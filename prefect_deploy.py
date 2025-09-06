@@ -15,5 +15,5 @@ if __name__ == "__main__":
         work_pool_name="default",
         work_queue_name="default",
         push=False,
-        job_variables={"pip_packages": ["prefect-sqlalchemy"]},
+        job_variables={"pip_packages": ["prefect-sqlalchemy", "pymysql"]},
     )
